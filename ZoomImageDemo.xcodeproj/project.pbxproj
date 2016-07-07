@@ -13,6 +13,9 @@
 		D16EA8A41D2DE7D9003359AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16EA8A21D2DE7D9003359AE /* Main.storyboard */; };
 		D16EA8A61D2DE7D9003359AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16EA8A51D2DE7D9003359AE /* Assets.xcassets */; };
 		D16EA8A91D2DE7D9003359AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16EA8A71D2DE7D9003359AE /* LaunchScreen.storyboard */; };
+		D16EA8B61D2DE9B2003359AE /* ZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EA8B51D2DE9B2003359AE /* ZoomImageView.m */; };
+		D16EA8BC1D2DEFC8003359AE /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = D16EA8BB1D2DEFC8003359AE /* a.png */; };
+		D16EA8BE1D2DF1AD003359AE /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = D16EA8BD1D2DF1AD003359AE /* aa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		D16EA8A51D2DE7D9003359AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D16EA8A81D2DE7D9003359AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D16EA8AA1D2DE7D9003359AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16EA8B41D2DE9B2003359AE /* ZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomImageView.h; sourceTree = "<group>"; };
+		D16EA8B51D2DE9B2003359AE /* ZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomImageView.m; sourceTree = "<group>"; };
+		D16EA8BB1D2DEFC8003359AE /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		D16EA8BD1D2DF1AD003359AE /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,9 @@
 		D16EA8981D2DE7D9003359AE /* ZoomImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D16EA8BB1D2DEFC8003359AE /* a.png */,
+				D16EA8BD1D2DF1AD003359AE /* aa.png */,
+				D16EA8B01D2DE97D003359AE /* ZoomImageView */,
 				D16EA89C1D2DE7D9003359AE /* AppDelegate.h */,
 				D16EA89D1D2DE7D9003359AE /* AppDelegate.m */,
 				D16EA89F1D2DE7D9003359AE /* ViewController.h */,
@@ -77,6 +87,15 @@
 				D16EA89A1D2DE7D9003359AE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D16EA8B01D2DE97D003359AE /* ZoomImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D16EA8B41D2DE9B2003359AE /* ZoomImageView.h */,
+				D16EA8B51D2DE9B2003359AE /* ZoomImageView.m */,
+			);
+			path = ZoomImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16EA8BE1D2DF1AD003359AE /* aa.png in Resources */,
 				D16EA8A91D2DE7D9003359AE /* LaunchScreen.storyboard in Resources */,
+				D16EA8BC1D2DEFC8003359AE /* a.png in Resources */,
 				D16EA8A61D2DE7D9003359AE /* Assets.xcassets in Resources */,
 				D16EA8A41D2DE7D9003359AE /* Main.storyboard in Resources */,
 			);
@@ -150,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D16EA8A11D2DE7D9003359AE /* ViewController.m in Sources */,
+				D16EA8B61D2DE9B2003359AE /* ZoomImageView.m in Sources */,
 				D16EA89E1D2DE7D9003359AE /* AppDelegate.m in Sources */,
 				D16EA89B1D2DE7D9003359AE /* main.m in Sources */,
 			);
