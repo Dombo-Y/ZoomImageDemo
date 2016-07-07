@@ -28,10 +28,14 @@
     imageViewB.tag = 200;
     [self.view addSubview:imageViewB];
     
-    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
-    tap.cancelsTouchesInView = NO;
-    [imageViewA addGestureRecognizer:tap];
-    [imageViewB addGestureRecognizer:tap];
+    UITapGestureRecognizer * tapA = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    tapA.cancelsTouchesInView = NO;
+    [imageViewA addGestureRecognizer:tapA];
+    
+    
+    UITapGestureRecognizer * tapB = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    tapB.cancelsTouchesInView = NO;
+    [imageViewB addGestureRecognizer:tapB];
 }
 
 -(void)tap:(id )sender{
